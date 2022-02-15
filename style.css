@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    background-image: url(https://cdn.aydinlik.com.tr/file/aydinlik-bucket/2019/11/28/a2665f60-b789-4d4f-b806-0dabf8dcf181.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#inputs{
+    display:inline-flex;
+    flex-direction: column-reverse;
+    width: 300px;
+    flex-flow: column wrap;
+    margin-top: 80px;
+
+}
+.reset,#luckybutton,#number{
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: 1px solid grey;
+    letter-spacing: 1px;
+}
+::placeholder{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    color:darkslategrey
+}
+.reset,#luckybutton{
+    font-size: 20px;
+    background-color:#ffaf40;
+    cursor: pointer;
+    color: white;
+}
+.reset:hover{
+    background-color:#18dcff;
+}
+#luckybutton:hover{
+    background-color: #18dcff;
+}
+.reset{
+    margin-bottom: 20px;
+}
+#cevap p{
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    margin: 0 auto;
+    width: 300px;
+}
